@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- -----------Fonts-------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- -----------Fonts -------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- ---------------icons------------------- -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="headcontainer">
+            <nav>
+                <img src="logo.png" class="logo" alt="Error" width="300px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bxs-right-arrow' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <!-- Home section Design -->
+        <div class="Home" id="Home">
+            <h3>Hello there,</h3>
+            <h1>This is <span class="maintxt">Pankaj Maurya</span> <br class="homebr">from New Delhi, India</h1>
+            <h5>( Web Developer, UI/UX Designer and Editor) </h5>
+            <details>
+                <summary>Short Info</summary>
+                <p>I'm a developer open for work and I always try to give my best effort in any project,<span
+                        class="hide">I also have
+                        experience <br class="homebr"> in Designing of web pages and video editing</span> </p>
+            </details>
+        </div>
+    </header>
+    <!-- ------------About Section-------------- -->
+
+    <section class="aboutsection" id="about">
+        <div class="about">
+            <div class="boxes">
+                <div class="box1">
+                    <img src="me.jpg" alt="My Image">
+                </div>
+                <div class="box2">
+                    <h1 class="abouth1">About <span class="spantxt">Me</span></h1>
+                    <p class="abouttxt">
+                        <span class="span-p">Hi</span> there, I'm a developer with a passion for creating elegant,
+                        efficient, and user-friendly Web Designs. I'm constantly seeking to expand my knowledge and
+                        skills in the fast-paced world of Programming and tech.
+                        <br>
+                        <span class="span-p">I've</span> not work with companies yet but I've done many projects such as
+                        Designing of home page, portfolio website and for more information you can check my about
+                        section, I hope, you won't be dissatisfied.
+                        <br>
+                        <span class="span-p">I'm</span> always excited to take on new challenges and projects, In
+                        addition to my technical skills, I'm a great communicator and a collaborative team player. I
+                        enjoy working closely with designers, product managers, and other developers to create
+                        high-quality software. <br>
+                        <span class="span-p">When</span> I'm not coding, you can usually find me reading up on the
+                        latest tech news, exploring new programming languages, I'm always looking for new ways to grow
+                        and learn as a developer, and I'm excited about the future
+                        of software and web development and the many opportunities it holds.
+
+                    </p>
+                    <div class="about-items">
+                        <div class="about-item1">
+                            <details class="details details1">
+                                <summary>
+                                    Skill
+                                </summary>
+                                <ul class="about-ul">
+                                    <li class="about-li">Web Development <br><span>Designing of web pages and
+                                            websites</span></li>
+                                    <li class="about-li">Editing <br><span>Smooth transition Videos, Montages, Edits
+                                            and Image Editing such as Thumbnails, Posters, banner, logo etc</span></li>
+                                    <li class="about-li">UI/UX <br><span>Desigining of Web Interfaces</span></li>
+
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="about-item2">
+                            <details class="details">
+                                <summary>
+                                    Experience
+                                </summary>
+                                <ul class="about-ul">
+                                    <li class="about-li">2019-2021 <br><span>Editor at Team United YT channel</span>
+                                    </li>
+                                    <li class="about-li">2021-2022 <br><span>Freelancer in Designing</span></li>
+                                    <li class="about-li">2022- Curent <br><span>Not Involved with company, Only Work on
+                                            Own Projects and Learning</span></li>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="about-item3">
+
+                            <details class="details">
+                                <summary>
+                                    Education
+                                </summary>
+                                <ul class="about-ul">
+                                    <li class="about-li">2018-2020 <br><span>High School By CBSE</span></li>
+                                    <li class="about-li">2020- Current <br><span>B.Tech at GGISPU </span></li>
+
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------Service Section----------------- -->
+    <section id="services">
+        <div class="service">
+            <div class="service-header">
+                <h3 class="service-h3">What can I do</h3>
+                <h1 class="abouth1">My<span class="spantxt"> Services</span></h1>
+            </div>
+
+            <div class="service-container">
+
+                <div class="service-container1">
+                    <div class="s-icon">
+                        <i class='bx bx-mobile-alt'></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Welcome to our web design service! We specialize in creating visually stunning and user-friendly
+                        websites that are optimized for performance and functionality.</p>
+                    <a href="#" class="service-link">Learn more</a>
+                </div>
+
+                <div class="service-container1">
+                    <div class="s-icon">
+                        <i class='bx bx-code-alt'></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Welcome to our web development service! We specialize in building websites that are fast, secure,
+                        and responsive.</p>
+                    <a href="#" class="service-link">Learn more</a>
+                </div>
+
+                <div class="service-container1">
+                    <div class="s-icon">
+                        <i class='bx bxs-edit-alt'></i>
+                    </div>
+                    <h3>Editing</h3>
+                    <p>Welcome to our editing service! We specialize in crafting high-quality videos that engage and
+                        inform your audience.</p>
+                    <a href="#" class="service-link">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------Portfolio section-------------- -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="portfolio">
+            <h1 class="abouth1">My<span class="spantxt"> Portfolio</span></h1>
+            <div class="work-list">
+                <div class="work-items">
+                    <img src="work-web.jpg" height="300px" width="270px" alt="Web Desigining">
+                    <div class="work-layer">
+                        <h4>Portfolio Website</h4>
+                        <p>Check out this portfolio responsive website, I've created this with beautiful transitions and
+                            animations and other attractive items. </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work-items">
+                    <img src="work-ui.jpg" height="300px" width="270px" alt="UI/UX">
+                    <div class="work-layer">
+                        <h4>UI/UX Design</h4>
+                        <p>Check out this UI design of home page of E-catering system for different menu with attractive
+                            designs of Food items.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+
+                </div>
+                <div class="work-items">
+                    <img src="work-editing.jpg" height="300px" width="270px" alt="Editing">
+                    <div class="work-layer">
+                        <h4>Editing</h4>
+                        <p>Check out this footage of Edits, promo videos, game edits, vectors art, thumbnails, banner
+                            logo
+                            and many more.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <a class="btn" href="#">See more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------Contact Section------------------- -->
+
+    <secton class="contact-section" id="contact">
+        <div class="contact">
+            <div class="contact-container">
+                <div class="contact-item1">
+                    <h1 class="abouth1"><span class="spantxt">Contact</span> Me!</h1>
+                    <h4>Don't hesitate, If you have anything in your mind related to Web or Tech</h4>
+                    <p><i class='bx bxl-gmail'></i><br> pm9916768@gmail.com</p>
+                    <p><i class='bx bxs-phone'></i><br> +91 7982786XXX</p>
+                    <div class="social-icons">
+                        <div class="instgram icon">
+                            <a href="https://www.instagram.com/_pankajxd_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                        </div>
+                        <div class="twitter  icon">
+                            <a href="https://twitter.com/Pankaj798278"target="_blank"><i class='bx bxl-twitter'></i></a>
+                        </div>
+                        <div class="telegram  icon">
+                            <a href="https://t.me/pankajop3" target="_blank"><i class='bx bxl-telegram'></i></a>
+                        </div>
+                        <div class="linkedin icon">
+                            <a href="https://www.linkedin.com/in/pankaj-maurya-199a7b246" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                    </div>
+                    <a href="Resume.pdf" download class="btn2">Download CV</a>
+                </div>
+                <div class="contact-item2">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <input type="tel" name="phone" placeholder="Your number" required>
+                        <textarea name="Message" rows="5" placeholder="Write whatever you want"></textarea>
+                        <input type="submit" class="btn2" name="submit" required>
+                    </form>
+                </div>
+            </div>
+            <span id="msg" >
+            
+            </span>
+        </div>
+    </secton>
+    <footer>
+        <div class="footer">
+            Copyright ©2023 Pankaj Maurya, All rights reserved.
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwXN-CfzTwePc4oBcI8BOZ-Aw5DP2EcU7b9TRe6OdYvKf5VI3ZgKaN5xPGwG0ppg5Sw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
