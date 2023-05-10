@@ -15,9 +15,10 @@ html{
 
 header {
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background-image: url(bg.jpg);
     background-size: cover;
+background-repeat: no repeat;
     background-position: cover;
     overflow: hidden;
     box-sizing: border-box;
