@@ -17,7 +17,7 @@ header {
     width: 100vw;
     height: 100vh;
     background-image: url(bg.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     background-position: cover;
     overflow: hidden;
     box-sizing: border-box;
